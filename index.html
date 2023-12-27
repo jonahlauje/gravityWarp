@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=800 height=600 tabindex="-1" style="width: 800px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/p0.1.1.loader.js"></script>
+    <script src="Build/p0.2.0.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -26,9 +26,9 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/p0.1.1.data",
-        frameworkUrl: "Build/p0.1.1.framework.js",
-        codeUrl: "Build/p0.1.1.wasm",
+        dataUrl: "Build/p0.2.0.data",
+        frameworkUrl: "Build/p0.2.0.framework.js",
+        codeUrl: "Build/p0.2.0.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "gravityWarp",
