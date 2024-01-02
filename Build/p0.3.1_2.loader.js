@@ -1388,8 +1388,6 @@ Module.UnityCache = function () {
       reject(msg);
     } else if (!Module.SystemInfo.hasWasm) {
       reject("Your browser does not support WebAssembly.");
-    } else if (!Module.SystemInfo.hasThreads) {
-      reject("Your browser does not support multithreading.");
     } else {
       Module.startupErrorHandler = reject;
       onProgress(0);
