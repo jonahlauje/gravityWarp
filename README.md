@@ -22,3 +22,7 @@ p0.3.0
 - ADSing now only has a 20% firerate penalty as opposed to 40% before
 - Added a killzone: falling off the map results in death
 - Gravity is now applied in FixedUpdate instead of Update (IDK why it was in update before)
+
+p0.4
+- Added personalisation menu (does not work yet)
+- Fixed (?) issue related to locked transform.right and transform.forward values
